@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset:"UTF-8">
+		<title> Account Management System </title>
+	</head>
+	<body>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<div class="top">
+		<h1> Account Management System </h1>	
+		</div>
+		<div class="middle">
+			<div class="y">
+				<div class="x">
+					<ul>
+						<button class="menu"> 
+							<a href="/HTML/account.html">
+								Create account </button> </a><br>
+						<button class="menu"> 
+							<a href="/HTML/delete.html">
+								 Delete Account </button> </a> <br>
+						<button class="menu"> 
+							<a href="/HTML/update.html">
+								 Update Account </button> </a><br>
+						<button class="menu"> 
+							<a href="/HTML/index.html" >
+								 Get all Account Details </button> </a><br>
+						<button class="menu"> 
+							<a href="/HTML/details.html" >
+								 Get Single Account details </button></a> <br>
+						<button class="menu"> 
+							<a href="/HTML/deposit.html">
+								 Deposite amount </button></a> <br>
+						<button class="menu"> 
+							<a href="/HTML/withdraw.html">
+								 withdraw amount </button></a> <br>
+						<button class="menu"> 
+							<a href="/HTML/transfer.html">
+								 transfer funds </button></a> <br>
+						<button class="menu"> 
+							<a href="/HTML/details.html">
+								 Statement </button></a> <br>
+					</ul>
+				</div>
+			</div>
+			<div class="y">
+				<div class="s">
+					<h3>Fill in the details</h3>
+				  <form>
+					<div class="form-group">
+						  <input type="text" class="form-control item" id="cname" placeholder="Customer Name" required>
+					  </div>
+					  <div class="form-group">
+						  <input type="tel" pattern="[0-9]{10}" class="form-control item" id="cnumber" placeholder="Contact Number">
+					  </div>
+					  <div class="form-group" id="sg">
+						  <label for="male" id="gt">Gender</label>
+						  <input type="radio" id="male" name="gi" required>
+						  <label for="male">Male</label>
+						  <input type="radio" id="female" name="gi" required>
+						  <label for="female">Female</label>
+					  </div>
+					  <div class="form-group">
+						  <textarea rows="3" placeholder="Enter The Address" required></textarea>
+					  </div>
+					  <div class="form-group">
+						  <input type="numnber" placeholder="Age" required>
+					  </div>
+					  <div class="form-group">
+						  <input type="email" placeholder="Email" required>
+					  </div>
+					  <div class="form-group">
+						  <input type="text" pattern="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](19|20)\d\d$" placeholder="Date (dd/mm/yyyy)" required>
+					  </div>
+					  <div class="form-group" id="sat">
+						  <label for="accounts" >Account Type</label>
+						  <select name="accounts" >
+							<option value="Savings">Savings Account</option>
+							<option value="Current">Current Account</option>
+							<option value="Fixed ">Fixed Account</option>
+						  </select>
+					  </div>
+					  <div class="form-group">
+						  <button type="submit" class="btn btn-block create-account">Submit</button>
+						  <button type="reset" class="btn btn-block create-account">Reset</button>
+					  </div>
+				  </form>
+				</div>
+			
+			
+			</div>
+		</div>
+		
+		<div class="bottom">
+		
+		<h1>      </h1>
+		</div>
+
+
+
+	</body>
+
+</html>
